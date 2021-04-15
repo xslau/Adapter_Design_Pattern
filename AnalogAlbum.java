@@ -1,3 +1,7 @@
+/**
+ * Interface for classes using AnalogAlbum
+ * @author Xzavian Slaughter
+ */
 public interface AnalogAlbum {
 
     public String play(); 

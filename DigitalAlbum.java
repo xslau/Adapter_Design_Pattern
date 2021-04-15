@@ -1,3 +1,7 @@
+/**
+ * Interface for Classes using DigitalAlbum
+ * @author Xzavian Slaughter
+ */
 public interface DigitalAlbum {
 
     public String playFromBeginning(); 
