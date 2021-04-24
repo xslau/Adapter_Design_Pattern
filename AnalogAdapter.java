@@ -21,7 +21,7 @@ public class AnalogAdapter implements AnalogAlbum{
      */
     public String play() {
 
-       return album.playFromBeginning();
+       return album.playSong(0);
 
     }
 
@@ -55,8 +55,6 @@ public class AnalogAdapter implements AnalogAlbum{
      */
     public String stopEject() {
 
-
         return album.stop(); 
-
     }
 }
